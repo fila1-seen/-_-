@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Иркутск — путеводитель: от Московских ворот до Байкала</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <h1>Иркутск</h1>
+  <a class="btn" href="#route">Начать маршрут</a>
+</header>
+<section class="intro">
+  <p>Иркутск основан в 1661 году как острог, а с 1686 года — город. Веками он был воротами России в Восточную Сибирь, на Байкал, в Китай и на Дальний Восток. Маршрут выстроен как рассказ: путь в город → духовное ядро → ссылка и память → железная дорога, энергия и главное сокровище региона — Байкал.</p>
+</section>
+<main id="route" class="layout">
+  <div id="map" aria-label="Карта маршрута"></div>
+  <div id="stops"></div>
+</main>
+<footer>Карта © OpenStreetMap, © CARTO. Фотографии и координаты объектов — из Википедии.</footer>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
